@@ -9,3 +9,22 @@
 ## 메모
 
 - 다른 저장소에서 가져온 코드는 출처와 라이선스를 함께 적어 둡니다.
+
+## 설치한 Claude 스킬
+
+전역 스킬 폴더(`~/.claude/skills/`)에 설치했습니다. 모든 프로젝트에서 쓸 수 있습니다.
+
+| 스킬 | 하는 일 | 출처 |
+| --- | --- | --- |
+| `frontend-design` | 템플릿 같지 않은 UI 디자인 가이드 | [anthropics/skills](https://github.com/anthropics/skills) |
+| `find-skills` | 필요한 스킬을 찾아 설치 도와줌 | [vercel-labs/skills](https://github.com/vercel-labs/skills) |
+| `anydoc` | Word·PPT·Excel·PDF 등을 마크다운으로 변환 | [magnus919/agent-skills](https://github.com/magnus919/agent-skills) |
+| `ui-ux-pro-max` | UI/UX 스타일·색상·폰트 데이터 검색 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| `67` | 6개 에이전트가 각자 풀고 7번째가 심사 | [jakeschincariol/claude-illegal-codes](https://github.com/jakeschincariol/claude-illegal-codes) |
+| `crash-out` | 답을 스스로 반박하며 검증 (환각 방지) | 〃 |
+| `aura-farming` | AI 티 나는 디자인 금지 + 디자인 점검 | 〃 |
+
+## 플러그인으로 설치할 것 (직접 설치 필요)
+
+- **im-not-ai** (한글 AI 티 제거 윤문): `/plugin marketplace add epoko77-ai/im-not-ai` → `/plugin install humanize-korean@im-not-ai`
+- **claude-mem** (세션 간 기억): [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
