@@ -23,8 +23,3 @@
 | `67` | 6개 에이전트가 각자 풀고 7번째가 심사 | [jakeschincariol/claude-illegal-codes](https://github.com/jakeschincariol/claude-illegal-codes) |
 | `crash-out` | 답을 스스로 반박하며 검증 (환각 방지) | 〃 |
 | `aura-farming` | AI 티 나는 디자인 금지 + 디자인 점검 | 〃 |
-
-## 플러그인으로 설치할 것 (직접 설치 필요)
-
-- **im-not-ai** (한글 AI 티 제거 윤문): `/plugin marketplace add epoko77-ai/im-not-ai` → `/plugin install humanize-korean@im-not-ai`
-- **claude-mem** (세션 간 기억): [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
