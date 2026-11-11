@@ -23,3 +23,4 @@
 | `67` | 6개 에이전트가 각자 풀고 7번째가 심사 | [jakeschincariol/claude-illegal-codes](https://github.com/jakeschincariol/claude-illegal-codes) |
 | `crash-out` | 답을 스스로 반박하며 검증 (환각 방지) | 〃 |
 | `aura-farming` | AI 티 나는 디자인 금지 + 디자인 점검 | 〃 |
+| `natural-report` | 보고서를 개조식 단답형·맑은 고딕·AI 티 없이 정리 | 직접 만듦 (`.claude/skills/natural-report/`) |
